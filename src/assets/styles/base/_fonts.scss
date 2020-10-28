@@ -1,0 +1,13 @@
+// _fonts.scss
+
+// Open Sans
+@include font-face('Open Sans', '../fonts/opensans/opensans-300', 300, normal, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-300i', 300, italic, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-400', 400, normal, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-400i', 400, italic, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-600', 600, normal, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-600i', 600, italic, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-700', 700, normal, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-700i', 700, italic, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-800', 800, normal, woff woff2);
+@include font-face('Open Sans', '../fonts/opensans/opensans-800i', 800, italic, woff woff2);
