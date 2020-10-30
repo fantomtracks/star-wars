@@ -1,4 +1,4 @@
-# front base
+# Star Wars
 Star Wars project.
 
 ## How to install
