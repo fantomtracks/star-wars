@@ -1,9 +1,9 @@
 // _variables.scss
 
 $screen-xs: 480px; // @respond-to ('small') and overwrite bootstrap grid. Overwrite grid
-$screen-sm: 755px; // @respond-to ('medium') and overwrite bootstrap grid. Overwrite grid
-$screen-md: 755px; // @respond-to ('large') and overwrite bootstrap grid. Overwrite grid
-$screen-lg: 755px; // @respond-to ('huge') and overwrite bootstrap grid. Overwrite grid 1313 design + 40px <- margin
+$screen-sm: 780px; // @respond-to ('medium') and overwrite bootstrap grid. Overwrite grid
+$screen-md: 780px; // @respond-to ('large') and overwrite bootstrap grid. Overwrite grid
+$screen-lg: 780px; // @respond-to ('huge') and overwrite bootstrap grid. Overwrite grid 1313 design + 40px <- margin
 $grid-gutter-width: 40px; // Overwrite grid ( gutters are / 2 visually )
 
 $font-size-base: 16px; // required by rem() mixins
@@ -20,24 +20,12 @@ $icomoon-font-path: '../fonts/ao-icon-frontbase';
 $color-key: 'base' !default;
 $colors: (
 	'primary': (
-		'base': #6a1b9a,
+		'base': #000,
 		'invert': #FFFFFF
 	),
 	'secondary': (
-		'base': #0b1e2d,
+		'base': #9B9B9B,
 		'invert': #FFFFFF // To defined
-	),
-	'tertiary': (
-		'base': #fd6a02,
-		'invert': #FFFFFF
-	),
-	'fourth': (
-		'base': #548235,
-		'invert': #FFFFFF
-	),
-	'five': (
-		'base': #dd2c00,
-		'invert': #FFFFFF
 	),
 	'foreground':(
 		'base': #0b1e2d, // Black

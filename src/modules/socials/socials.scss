@@ -1,0 +1,46 @@
+// socials.scss
+@import "../../assets/styles/helpers";
+
+.socials {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+
+	@include respond-to('medium'){
+		display: block;
+		margin-top: 0;
+	}
+
+	&__text {
+		@include font-size(12px);
+		line-height: em(30px,12px);
+		color: color('secondary');
+		text-transform: uppercase;
+
+		@include respond-to('medium'){
+			text-align: center;
+		}
+	}
+
+	&__nav {
+		@include respond-to('medium'){
+			width: 100%;
+			text-align: center;
+		}
+
+		ul {
+			display: inline-flex;
+			margin: 0;
+			padding: 0;
+		}
+
+		&__item {
+			margin: 0 10px;
+		}
+
+		.insta {
+			filter: invert(50%);
+		}
+	}
+}

@@ -1,0 +1,61 @@
+// footer.scss
+@import "../../assets/styles/helpers";
+
+.footer {
+	margin-top: 30px;
+	@include font-size(12px);
+	line-height: em(30px);
+	color: color('secondary');
+
+	@include respond-to('medium'){
+		margin-top: 100px;
+	}
+
+	&__image {
+		min-height: 210px;
+		background: url(../../assets/img/stormtroopers.jpg) center / cover;
+	}
+
+	&__content {
+		padding: 20px;
+		background: url(../../assets/img/darthvader.jpg) center / cover;
+		color: color('background');
+
+		@include respond-to('medium'){
+			padding: 60px;
+		}
+
+		.row {
+			margin-top: 0;
+		}
+	}
+
+	&__copyright {
+		display: block;
+		width: 100%;
+		text-align: center;
+		color: color('secondary');
+
+		@include respond-to('medium'){
+			margin-bottom: 30px;
+			@include font-size(14px);
+			line-height: em(18px,14px);
+		}
+	}
+
+	nav {
+		ul {
+			padding: 0;
+			list-style: none;
+			text-align: center;
+
+			li:not(.socials__nav__item){
+				margin-bottom: 5px;
+			}
+
+			a{
+				color: color('secondary');
+			}
+		}
+	}
+}

@@ -2,11 +2,38 @@
 @import "../../assets/styles/helpers";
 
 .banner {
-	margin-bottom: 100px;
-	background: url('../../assets/img/header-bg.png') center/cover no-repeat;
+	min-height: 400px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	color: color('background');
+
+	@include respond-to('medium'){
+		min-height: 440px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	&--main {
+		min-height: 0;
+		margin-top: 0;
+
+		@include respond-to('medium'){
+			padding-top: 62px;
+		}
+	}
 
 	&__logo {
 		margin: 70px 0 31px 0;
+	}
+
+	&--stars {
+		background-image: url('../../assets/img/header-bg.png');
+	}
+
+	&--kiloren {
+		background-image: url('../../assets/img/kiloren.jpg');
 	}
 }
