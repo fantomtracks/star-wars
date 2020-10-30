@@ -1,9 +1,10 @@
 # front base
-Starter SCSS + webpack for front project.
+Star Wars project.
 
 ## How to install
 ### Requirements
 - node.js (node v14.15.0)
+- php
 
 ### Install the system
 On first install run this command:
