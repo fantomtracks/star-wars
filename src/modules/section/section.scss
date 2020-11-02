@@ -1,0 +1,51 @@
+// section.scss
+@import "../../assets/styles/helpers";
+
+.section {
+	@include font-size(14px);
+	line-height: em(24px,14px);
+
+	&--m-centred {
+		@include font-size(18px);
+		line-height: em(22px,18px);
+		text-align: center;
+
+		@include respond-to('medium'){
+			text-align: left;
+		}
+	}
+
+	&__img {
+		display: block;
+		margin: 0 auto 30px auto;
+
+		@include respond-to('medium'){
+			float: left;
+			margin: 0 20px 20px 0;
+		}
+	}
+
+	&__special {
+		display: none;
+		max-width: none;
+
+		@include respond-to('medium'){
+			position: sticky;
+			display: block;
+			top: 0;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+
+		li {
+			margin-bottom: 5px;
+
+			&::before {
+				content: '- ';
+			}
+		}
+	}
+}

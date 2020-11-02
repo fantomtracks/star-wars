@@ -6,7 +6,7 @@
 
 import './modules/main-nav/main-nav';
 import './modules/banner/banner';
-import './modules/article/article';
+import './modules/section/section';
 import './modules/socials/socials';
 import './modules/footer/footer';
 
